@@ -16,6 +16,7 @@ Namespace Contensive.Addons.aoLatitudeandLongitude
         ''' <remarks></remarks>
         Public Overrides Function Execute(ByVal CP As BaseClasses.CPBaseClass) As Object
             '
+
             If Err.Number <> 0 Then
                 Call CP.Site.ErrorReport("Error entering GetLatitudeandLongitude")
             End If
