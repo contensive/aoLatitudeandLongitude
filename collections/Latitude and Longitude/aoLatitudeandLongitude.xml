@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="windows-1252"?>
+<Collection name="Latitude and Longitude" guid="{8c712c50-e387-483a-aea9-ea7fbe098ac6}" system="No" updatable="No" blockNavigatorNode="No">
+	<Help></Help>
+	<Addon name="Latitude and Longitude" guid="{ae4e5153-67e4-4b45-ac54-7f7a7321bcba}" type="Add-on">
+		<Copy></Copy>
+		<CopyText></CopyText>
+		<ActiveXProgramID></ActiveXProgramID>
+		<DotNetClass><![CDATA[Contensive.Addons.aoLatitudeandLongitude.getLatitudeandLongitude]]></DotNetClass>
+		<ArgumentList></ArgumentList>
+		<AsAjax>No</AsAjax>
+		<Filter>No</Filter>
+		<Help></Help>
+		<HelpLink></HelpLink>
+		<Icon Link="" width="0" height="0" sprites="0" />
+		<InIframe>No</InIframe>
+		<BlockEditTools>No</BlockEditTools>
+		<FormXML></FormXML>
+		<IsInline>No</IsInline>
+		<JavascriptOnLoad></JavascriptOnLoad>
+		<JavascriptInHead></JavascriptInHead>
+		<JavascriptBodyEnd></JavascriptBodyEnd>
+		<MetaDescription></MetaDescription>
+		<OtherHeadTags></OtherHeadTags>
+		<Content>No</Content>
+		<Template>No</Template>
+		<Admin>No</Admin>
+		<OnPageEndEvent>No</OnPageEndEvent>
+		<OnPageStartEvent>No</OnPageStartEvent>
+		<OnBodyStart>No</OnBodyStart>
+		<OnBodyEnd>No</OnBodyEnd>
+		<RemoteMethod>Yes</RemoteMethod>
+		<ProcessRunOnce>No</ProcessRunOnce>
+		<ProcessInterval>0</ProcessInterval>
+		<PageTitle></PageTitle>
+		<RemoteAssetLink></RemoteAssetLink>
+		<Styles></Styles>
+		<Scripting Language="" EntryPoint="" Timeout="5000"/>
+	</Addon>
+	
+	<Addon name="APIKey" guid="{d7891830-f196-43a2-8da1-823444337e2b}" type="Add-on">
+	<FormXML>
+
+<![CDATA[<Form>
+	<Description>Settings that affect the general appearance and function of Contensive features on the site</Description>
+	<Help>Help Copy</Help>
+	<HelpLink>http://www.contensive.com</HelpLink>
+	<Tab name="API" heading="API Settings" description="Settings for the Google API.">
+		<SiteProperty caption="Google API Key" name="Google API Key" ReadOnly="0" Type="Text" Selector="" Description="">Contensive Administration</SiteProperty>
+		</Tab>
+</Form>
+]]>
+</FormXML>
+	</Addon>
+	
+</Collection>
