@@ -37,7 +37,7 @@ Namespace Contensive.Addons.aoLatitudeandLongitude
             Dim apiKey As String = ""
             '
             defaultValue = "0^0"
-            address = CP.Doc.GetText("MSfindRideZip")
+            address = CP.Doc.GetText("address")
             apiKey = CP.Site.GetText("GOOGLE API KEY")
 
             If (String.IsNullOrEmpty(apiKey)) Then
